@@ -1,0 +1,16 @@
+{
+  "name": "webrtc",
+  "version": "0.0.1",
+  "description": "A Video Chat Application made using WebRTC, Nodejs (Sokcet.io, ejs) and some Developer Love :)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Bala Krishna",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.3"
+  }
+}
