@@ -19,11 +19,11 @@ npm start
 ## __TODO__
 
 1. [x] Basic Project Setup
-1. [] Explore and Implement Media Stream API
-1. [] Implement RTCPeerConnection
-1. [] Setup Signalling Server
-1. [] Implement RTCDataChannel for messages
-1. [] Brushup the project and deploy
+1. [ ] Explore and Implement Media Stream API
+1. [ ] Implement RTCPeerConnection
+1. [ ] Setup Signalling Server
+1. [ ] Implement RTCDataChannel for messages
+1. [ ] Brushup the project and deploy
 
 
 
