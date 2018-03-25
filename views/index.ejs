@@ -1,14 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <title>B Athelete</title>
+    <title>Video Chat</title>
 </head>
+
 <body>
-    <video class="greyscale_filter" autoplay></video>
+    <div>
+        <video id="localVideo" class="greyscale_filter" controls="controls" autoplay></video>
+    </div>
+    <div>
+        <p>
+            <button id="profilePicBtn" type="button" autofocus>Click Image</button>
+            <canvas id="profilePicCanvas" style="display:none;"></canvas>
+            <div>
+                <img id="profilePicOutput">
+            </div>
+        </p>
+    </div>
+
     <script src="/js/index.js"></script>
 </body>
+
 </html>
