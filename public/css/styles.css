@@ -1,0 +1,5 @@
+.greyscale_filter {
+    -webkit-filter: saturate(0.03);
+    filter: saturate(0.03);
+    filter: opacity(0.4);
+}
